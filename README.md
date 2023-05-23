@@ -1,5 +1,5 @@
 ``` center
-**[Anish Gondhi]{.smallcaps}**\
+**['Anish Gondhi']{.smallcaps}**\
 (902)-718-9098 $|$
 [[Anish.Gondhi@dal.ca]{.underline}](mailto:Anish.Gondhi@dal.ca) $|$
 [[LinkedIn]{.underline}](https://www.linkedin.com/in/anish-gondhi/) $|$
