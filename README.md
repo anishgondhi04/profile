@@ -1,19 +1,19 @@
-::: center
+``` center
 **[Anish Gondhi]{.smallcaps}**\
 (902)-718-9098 $|$
 [[Anish.Gondhi@dal.ca]{.underline}](mailto:Anish.Gondhi@dal.ca) $|$
 [[LinkedIn]{.underline}](https://www.linkedin.com/in/anish-gondhi/) $|$
 [[GitHub]{.underline}](https://github.com/anishgondhi04)
-:::
+```
 
 # Technical Skills
 
-::: itemize
+``` itemize
 **Languages**: Java, Python, C/C++, SQL, HTML/CSS, JavaScript\
 **Frameworks**: Spring Boot, JUnit, React\
 **Developer Tools**: Git, GCC Compiler Tools, VS Code, PyCharm,
 IntelliJ, Android Studio, VIM, GitHub, GitLab\
-:::
+```
 
 # Experience
 
