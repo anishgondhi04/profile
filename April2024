@@ -1,0 +1,191 @@
+%-------------------------
+% Resume in Latex
+% Author: Anish Gondhi
+% Based off of: https://github.com/sb2nov/resume
+% License: MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------BEGIN DOCUMENT----------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Anish Gondhi} \\ \vspace{1pt}
+    \small (902)-718-9098 $|$ \href{mailto:Anish.Gondhi@dal.ca}{\underline{Anish.Gondhi@dal.ca}} $|$ 
+    \href{https://www.linkedin.com/in/anish-gondhi/}{\underline{LinkedIn}} $|$
+    \href{https://github.com/anishgondhi04}{\underline{GitHub}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Dalhousie University}{Halifax, NS}
+      {Bachelor of Computer Science}{Jan 2020 -- Apr 2024}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {DevOps Engineer}{Sep 2022 -- Mar 2023}
+      {CareOnDemand}{Toronto, ON} 
+      \resumeItemListStart
+        \resumeItem{Oversaw development, modification, and deployment processes for iOS and Android apps, enhancing system efficiency and user satisfaction.}
+        \resumeItem{Managed API integrations from an external organization's SaaS platform, ensuring seamless data exchange and functionality.}
+        \resumeItem{Implemented CI/CD pipelines, significantly reducing time-to-market for new features and updates.}
+        \resumeItem{Facilitated cross-functional team collaborations to streamline project execution and deliver high-quality solutions.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {IT Solutions Developer}{Jan 2022 -- Apr 2022}
+      {Emera Inc.}{Halifax, NS}
+      \resumeItemListStart
+        \resumeItem{Developed and tested Python scripts for data extraction and manipulation, achieving a 40\% improvement in data processing efficiency.}
+        \resumeItem{Enhanced data transfer processes from company API servers to SQL database, reducing the processing time by over 35\%.}
+        \resumeItem{Redesigned test cases for legacy systems, leading to an 85\% improvement in test coverage and maintenance.}
+        \resumeItem{Integrated new data sources into the company’s analytics framework, broadening the data analysis capabilities.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+     \resumeProjectHeading
+          {\textbf{Binary Translator (Rosseta)} $|$ \emph{C, Assembly x86}}{Jan 2024 -- Mar 2024}
+          \resumeItemListStart
+            \resumeItem{Engineered a binary translator from X instruction set to x86, enabling code execution on modern processors.}
+            \resumeItem{Supported a wide range of instructions, enhancing the tool's utility for educational and development purposes.}
+            \resumeItem{Implemented debug mode for real-time code execution tracing, facilitating easier debugging and learning.}
+            \resumeItem{Applied register mapping techniques for accurate instruction translation, ensuring the operational integrity of translated code.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Music Player} $|$ \emph{JavaScript, ReactJS}}{Feb 2023 -- Present}
+          \resumeItemListStart
+            \resumeItem{Designed and developed the frontend for a music streaming service, integrating with the Shazam API for dynamic content access.}
+            \resumeItem{Utilized ReactJS for efficient UI construction and Redux for state management, creating a responsive and interactive user experience.}
+          \resumeItemListEnd
+            
+     \resumeProjectHeading
+        {\textbf{Web Scraping} $|$ \emph{Python, Selenium, MySQL, Git, GitHub}}{Jan 2023 -- Mar 2023}
+            \resumeItemListStart
+            \resumeItem{Developed a Python script utilizing libraries such as sys, time, urllib, selenium, and MySQL. connector to automate data scraping from a website}
+            \resumeItem{Utilized the headless browsing feature of Selenium WebDriver for efficient and invisible web scraping.}
+            \resumeItem{Created a robust data extraction process by iterating through website elements and extracting relevant data such as item IDs and image URLs.}
+            \resumeItem{Implemented best practices in data scraping, respecting website terms of service, privacy policies, and legal considerations.}
+        \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Trello Clone} $|$ \emph{Spring Boot, ReactJS}}{May 2022 -- Aug 2022}
+          \resumeItemListStart
+            \resumeItem{Created a full-stack web application replicating Trello's functionality for task and project management.}
+            \resumeItem{Implemented backend services with Spring Boot and developed a user-friendly interface with ReactJS.}
+            \resumeItem{Employed MariaDB for data persistence, ensuring robust data storage and retrieval mechanisms.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+
+    %-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C/C++, SQL, HTML/CSS, JavaScript} \\
+     \textbf{Frameworks}{: Spring Boot, JUnit, ReactJS} \\
+     \textbf{Developer Tools}{: Git, GCC Compiler Tools, VS Code, PyCharm, IntelliJ, Android Studio, VIM, GitHub} \\
+    }}
+ \end{itemize}
+
+    
+
+%-------------------------------------------
+\end{document}
