@@ -107,7 +107,7 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Dalhousie University}{Halifax, NS}
-      {Bachelor of Computer Science}{Jan 2020 -- Apr 2024}
+      {Bachelor of Computer Science}{Jan 2020 -- Present}
   \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------
@@ -149,19 +149,19 @@
           \resumeItemListEnd
 
       \resumeProjectHeading
-          {\textbf{Music Player} $|$ \emph{JavaScript, ReactJS}}{Feb 2023 -- Present}
+          {\textbf{Music Player} $|$ \emph{JavaScript, ReactJS}}{Feb 2024 -- Present}
           \resumeItemListStart
             \resumeItem{Designed and developed the frontend for a music streaming service, integrating with the Shazam API for dynamic content access.}
             \resumeItem{Utilized ReactJS for efficient UI construction and Redux for state management, creating a responsive and interactive user experience.}
           \resumeItemListEnd
             
      \resumeProjectHeading
-        {\textbf{Web Scraping} $|$ \emph{Python, Selenium, MySQL, Git, GitHub}}{Jan 2023 -- Mar 2023}
+        {\textbf{Dynamic Order Processing System via Web Scraping} $|$ \emph{Python, Selenium, MySQL}}{Jan 2023 -- Mar 2023}
             \resumeItemListStart
-            \resumeItem{Developed a Python script utilizing libraries such as sys, time, urllib, selenium, and MySQL. connector to automate data scraping from a website}
-            \resumeItem{Utilized the headless browsing feature of Selenium WebDriver for efficient and invisible web scraping.}
-            \resumeItem{Created a robust data extraction process by iterating through website elements and extracting relevant data such as item IDs and image URLs.}
-            \resumeItem{Implemented best practices in data scraping, respecting website terms of service, privacy policies, and legal considerations.}
+            \resumeItem{Engineered an advanced web scraping solution using Python and Selenium to navigate and extract user-selected options from DoorDash for accurate order compilation.}
+            \resumeItem{Leveraged Selenium's headless mode to simulate user interactions and navigate nested menus, achieving undetectable data extraction at high efficiency.}
+            \resumeItem{Designed and implemented a sophisticated data extraction algorithm to parse and store complex nested choices, optimizing the process for speed and reliability.}
+            \resumeItem{Adhered to ethical web scraping guidelines, ensuring compliance with legal standards and respect for web service terms of use.}
         \resumeItemListEnd
 
       \resumeProjectHeading
